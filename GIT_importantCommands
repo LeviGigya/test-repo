@@ -3,7 +3,7 @@ git commands
 // rename a local branch
 git branch -m v1.02 
 
-//clone remote branct to current directory
+//clone remote branch to current directory
 git clone -b <branch> <ssh-key>
 
 // add new files to branch
