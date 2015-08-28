@@ -1,0 +1,35 @@
+git commands
+
+// rename a local branch
+git branch -m v1.02 
+
+//clone remote branch to current directory
+git clone -b <branch> <ssh-key>
+
+// add new files to branch
+git add -A
+
+// commit all changes to branch
+git commit -a
+
+// add tag to branch-version for tracking
+git tag -a v1.00.01 -m "First official version." // a = annotated / m = message
+
+// push tagged branch to remote branch (not-master)
+git push <ssh-key> <branch> --tags
+
+
+// push the current branch to the specified remote branch (no tags)
+git push <ssh-key> <branch>
+
+// show info regarding the requested tag
+git show v1.00.01
+
+
+// tag a new version (same branch / same directory)
+git tag -a v1.00.02 -m "Second official version."
+
+// push updated branch with new version #
+git push <ssh-key> <branch> --tags
+
+
