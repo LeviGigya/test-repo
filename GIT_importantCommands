@@ -32,4 +32,12 @@ git tag -a v1.00.02 -m "Second official version."
 // push updated branch with new version #
 git push <ssh-key> <branch> --tags
 
+// get all branch names from remote
+git fetch --all -v
+
+// show all branches in remote
+git branch -a
+
+// pull from remote to live staging
+git checkout -f <branch>
 
