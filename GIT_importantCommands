@@ -41,3 +41,22 @@ git branch -a
 // pull from remote to live staging
 git checkout -f <branch>
 
+// push a single tag
+git push  <REMOTENAME> <TAGNAME>
+
+// rename remote branch
+git push  <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME>
+
+// delete remote branch (empty-space before :branchname)
+git push  <REMOTENAME> :<BRANCHNAME>
+
+
+// misc notes: ///////////////////////////////////////////////
+
+// fix wrong name associated with pushes to remote
+http://stackoverflow.com/questions/4665337/git-pushing-to-remote-github-repository-as-wrong-user
+
+// create ssh key
+https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s3-openssh-rsa-keys-v2.html
+
+
