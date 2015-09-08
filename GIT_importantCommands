@@ -41,3 +41,6 @@ git branch -a
 // pull from remote to live staging
 git checkout -f <branch>
 
+// git clone will give you the whole repository.
+// After the clone, you can list the tags with git tag -l and then checkout a specific tag: git checkout tags/<tag_name>
+// when doing a checkout and as Derek mentioned, the repo goes into a "detached head" state. instead, add the -b flag telling git to create a new branch and specify a branch name: git checkout <tag_name> -b <branch_name>
