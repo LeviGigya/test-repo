@@ -43,6 +43,7 @@ git branch -a
 
 // pull from remote to live staging
 git checkout -f <branch>
+git pull origin Redesign // for Redesign branch
 
 // get latest tag in branch
 git describe --abbrev=0
