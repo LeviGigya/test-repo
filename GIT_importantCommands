@@ -7,7 +7,7 @@ git branch -m v1.02
 git branch
 
 //clone remote branch to current directory
-git clone -b <branch> <ssh-key>
+git clone github:nameofrepo -b <branch>
 
 // add new files to branch
 git add -A
