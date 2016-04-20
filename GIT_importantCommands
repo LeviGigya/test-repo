@@ -48,6 +48,8 @@ git pull origin Redesign // for Redesign branch
 // get latest tag in branch
 git describe --abbrev=0
 
+// Add a comment to a commit
+git commit -a -m "my message"
 
 // git clone will give you the whole repository.
 // After the clone, you can list the tags with git tag -l and then checkout a specific tag: git checkout tags/<tag_name>
