@@ -1,4 +1,19 @@
-git commands
+**GIT COMMANDS**
+
+//You must have added an SSH public key to your github account for the machine you are currently using
+//  (in: Settings >> SSH and GPG keys).
+
+//If you haven't used git in the directory before
+git init
+
+//You must set user.name and user.email:
+//local directory only
+git config user.name "GitHubLoginName"
+git config user.email "your-email@wherever.com"
+
+//global git settings for all repos
+git config --GLOBAL user.name "GitHubLoginName"
+git config --GLOBAL user.email "your-email@wherever.com"
 
 // rename a local branch
 git branch -m v1.02 
@@ -60,4 +75,4 @@ git commit -a -m "my message"
 
 //#####################################################//
 //Pull current working branch from git
-git pull origin Redesign02
+git pull origin
