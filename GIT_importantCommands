@@ -31,7 +31,7 @@ git clone <git@github.com:whatgitdirectory> <name-of-new-folder>
 git add -A
 
 // commit all changes to branch
-git commit -a
+git commit -a -m "message of what changed/updated"
 
 // add tag to branch-version for tracking
 git tag -a v1.00.01 -m "First official version." // a = annotated / m = message
