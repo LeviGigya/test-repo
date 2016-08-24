@@ -9,6 +9,9 @@ git branch
 //clone remote branch to current directory
 git clone github:nameofrepo -b <branch>
 
+//clone remote to new local directory
+git clone <git@github.com:whatgitdirectory> <name-of-new-folder>
+
 // add new files to branch
 git add -A
 
