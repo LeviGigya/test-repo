@@ -76,3 +76,20 @@ git commit -a -m "my message"
 //#####################################################//
 //Pull current working branch from git
 git pull origin
+
+
+//#####################################################//
+//Working with Heroku demo.gigya.com
+
+//update local to current production
+git pull heroku
+
+//commit your changes
+git commit -a -m "message"
+
+//tag current version
+git tag -a v1.00.02 -m "Second official version."
+
+//push updated version
+git push heroku
+
