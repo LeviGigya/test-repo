@@ -93,6 +93,21 @@ git tag -a v1.00.02 -m "Second official version."
 //push updated version
 git push heroku
 
+mkdir /var/www/html/raasdev
+cd raasdev
+git init
+heroku git:remote -a raasdev
+git checkout origin
+   or
+git pull heroku master
+
+
+
+
+
+
+
+
 // Not git, but important
 //From terminal
 //to create an entry for .htpasswd (this will print out the password for copy/pasting into an .htpasswd file),
