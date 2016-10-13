@@ -82,7 +82,7 @@ git pull origin
 //Working with Heroku demo.gigya.com
 
 //update local to current production
-git pull heroku
+git pull heroku master:master
 
 //commit your changes
 git commit -a -m "message"
@@ -91,7 +91,7 @@ git commit -a -m "message"
 git tag -a v1.00.02 -m "Second official version."
 
 //push updated version
-git push heroku
+git push heroku master:master
 
 mkdir /var/www/html/raasdev
 cd raasdev
