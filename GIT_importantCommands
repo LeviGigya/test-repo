@@ -101,6 +101,8 @@ git checkout origin
    or
 git pull heroku master
 
+// Force push with complete disregard for others
+git push heroku master:master --force
 
 
 
